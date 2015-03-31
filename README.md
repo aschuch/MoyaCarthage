@@ -3,7 +3,7 @@
 The [Moya](https://github.com/ashfurrow/Moya) network abstraction layer library optimized for Carthage.
 
 ```
-github "aschuch/MoyaCarthage" "0.1"
+github "aschuch/MoyaCarthage" "0.6.1"
 ```
 
 This version currently only supports swift 1.2.
