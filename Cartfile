@@ -1,2 +1,2 @@
-github "Alamofire/Alamofire" "2ff5749ffc0425f05a1411b5b6fd2c25241b5b14"
-github "ReactiveCocoa/ReactiveCocoa" "v3.0-alpha.3"
+github "Alamofire/Alamofire" >= 1.2
+github "ReactiveCocoa/ReactiveCocoa" "v3.0-beta.1"
