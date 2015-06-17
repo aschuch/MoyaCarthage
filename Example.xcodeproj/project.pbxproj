@@ -22,8 +22,9 @@
 		4D2149AB1ACA900300AF922E /* Moya+ReactiveCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2149A71ACA900300AF922E /* Moya+ReactiveCocoa.swift */; };
 		4D2149AC1ACA900300AF922E /* RACSignal+Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2149A81ACA900300AF922E /* RACSignal+Moya.swift */; };
 		4D2149B01ACA90FA00AF922E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2149AD1ACA90FA00AF922E /* Alamofire.framework */; };
-		4D2149B11ACA90FA00AF922E /* LlamaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2149AE1ACA90FA00AF922E /* LlamaKit.framework */; };
 		4D2149B21ACA90FA00AF922E /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2149AF1ACA90FA00AF922E /* ReactiveCocoa.framework */; };
+		4D75F98D1B31A36300686546 /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D75F98B1B31A36300686546 /* Box.framework */; };
+		4D75F98E1B31A36300686546 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D75F98C1B31A36300686546 /* Result.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,8 +84,9 @@
 		4D2149A71ACA900300AF922E /* Moya+ReactiveCocoa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Moya+ReactiveCocoa.swift"; sourceTree = "<group>"; };
 		4D2149A81ACA900300AF922E /* RACSignal+Moya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RACSignal+Moya.swift"; sourceTree = "<group>"; };
 		4D2149AD1ACA90FA00AF922E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		4D2149AE1ACA90FA00AF922E /* LlamaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LlamaKit.framework; path = Carthage/Build/iOS/LlamaKit.framework; sourceTree = "<group>"; };
 		4D2149AF1ACA90FA00AF922E /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		4D75F98B1B31A36300686546 /* Box.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Box.framework; path = Carthage/Build/iOS/Box.framework; sourceTree = "<group>"; };
+		4D75F98C1B31A36300686546 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D75F98D1B31A36300686546 /* Box.framework in Frameworks */,
+				4D75F98E1B31A36300686546 /* Result.framework in Frameworks */,
 				4D2149B01ACA90FA00AF922E /* Alamofire.framework in Frameworks */,
-				4D2149B11ACA90FA00AF922E /* LlamaKit.framework in Frameworks */,
 				4D2149B21ACA90FA00AF922E /* ReactiveCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,8 +203,9 @@
 		4D2149B31ACA919500AF922E /* Carthage */ = {
 			isa = PBXGroup;
 			children = (
+				4D75F98B1B31A36300686546 /* Box.framework */,
+				4D75F98C1B31A36300686546 /* Result.framework */,
 				4D2149AD1ACA90FA00AF922E /* Alamofire.framework */,
-				4D2149AE1ACA90FA00AF922E /* LlamaKit.framework */,
 				4D2149AF1ACA90FA00AF922E /* ReactiveCocoa.framework */,
 			);
 			name = Carthage;
@@ -621,6 +625,7 @@
 				4D21497C1ACA8E2F00AF922E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D21499E1ACA8E5300AF922E /* Build configuration list for PBXNativeTarget "Moya" */ = {
 			isa = XCConfigurationList;
@@ -629,6 +634,7 @@
 				4D2149A01ACA8E5300AF922E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D2149A21ACA8E5300AF922E /* Build configuration list for PBXNativeTarget "MoyaTests" */ = {
 			isa = XCConfigurationList;
@@ -637,6 +643,7 @@
 				4D2149A41ACA8E5300AF922E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
