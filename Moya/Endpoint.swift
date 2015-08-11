@@ -1,18 +1,10 @@
-//
-//  Endpoint.swift
-//  Moya
-//
-//  Created by Ash Furrow on 2014-08-16.
-//  Copyright (c) 2014 Ash Furrow. All rights reserved.
-//
-
 import Foundation
 import Alamofire
 
 /// Used for stubbing responses.
 public enum EndpointSampleResponse {
-    case Success(Int, NSData)
-    case Error(Int?, NSError?, NSData?)
+    case Success(Int, () -> NSData)
+    case Error(Int?, NSError?, (() -> NSData)?)
     case Closure(() -> EndpointSampleResponse)
 
     func evaluate() -> EndpointSampleResponse {
