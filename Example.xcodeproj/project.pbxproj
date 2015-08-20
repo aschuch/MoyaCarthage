@@ -25,6 +25,7 @@
 		4D2149B21ACA90FA00AF922E /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2149AF1ACA90FA00AF922E /* ReactiveCocoa.framework */; };
 		4D75F98D1B31A36300686546 /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D75F98B1B31A36300686546 /* Box.framework */; };
 		4D75F98E1B31A36300686546 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D75F98C1B31A36300686546 /* Result.framework */; };
+		BC2F2FBB1B79EB1400D34DC8 /* MoyaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F2FBA1B79EB1400D34DC8 /* MoyaResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		4D2149AF1ACA90FA00AF922E /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
 		4D75F98B1B31A36300686546 /* Box.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Box.framework; path = Carthage/Build/iOS/Box.framework; sourceTree = "<group>"; };
 		4D75F98C1B31A36300686546 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		BC2F2FBA1B79EB1400D34DC8 /* MoyaResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 			children = (
 				4D2149A51ACA900300AF922E /* Endpoint.swift */,
 				4D2149A61ACA900300AF922E /* Moya.swift */,
+				BC2F2FBA1B79EB1400D34DC8 /* MoyaResponse.swift */,
 				4D2149A71ACA900300AF922E /* Moya+ReactiveCocoa.swift */,
 				4D2149A81ACA900300AF922E /* RACSignal+Moya.swift */,
 				4D2149891ACA8E5300AF922E /* Moya.h */,
@@ -363,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2F2FBB1B79EB1400D34DC8 /* MoyaResponse.swift in Sources */,
 				4D2149AC1ACA900300AF922E /* RACSignal+Moya.swift in Sources */,
 				4D2149AB1ACA900300AF922E /* Moya+ReactiveCocoa.swift in Sources */,
 				4D2149A91ACA900300AF922E /* Endpoint.swift in Sources */,
